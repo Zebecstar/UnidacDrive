@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Unidac Drive",
+    "slug": "unidac-drive",
+    "version": "0.1.0",
+    "orientation": "default",
+    "scheme": "unidacdrive",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zebecstar.unidacdrive"
+    },
+    "android": {
+      "package": "com.zebecstar.unidacdrive",
+      "adaptiveIcon": {
+        "backgroundColor": "#111827"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-document-picker"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
